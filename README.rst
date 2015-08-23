@@ -6,7 +6,7 @@ Project Description
 What is this?
 -------------
 
-This skeleton project includes come basic files that I often duplicate across projects.
+This skeleton project includes some basic files that I often duplicate across projects.
 
 License
 -------
