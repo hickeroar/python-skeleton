@@ -1,0 +1,9 @@
+*.pyc
+.vagrant
+.env
+.idea
+build
+.cover*
+simplebayes
+Cahoots.egg-info/
+dist/

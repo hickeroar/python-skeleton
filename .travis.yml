@@ -1,0 +1,15 @@
+language: python
+cache:
+  - apt
+  - pip
+sudo: false
+python:
+  - "2.7"
+  - "3.4"
+install:
+  - pip install -r setup/requirements.txt
+  - pip install -r setup/requirements.dev.txt
+script:
+  - nosetests tests/test.py --with-coverage --cover-package=cahoots --cover-min-percentage 100
+  - flake8 mypackage
+  - pylint mypackage
